@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang='en'><head><meta charset='utf-8'/><meta name='viewport' content='width=device-width,initial-scale=1'/><title>Sorry — Normal ZIP</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='styles.css'>
+</head><body>
+<div class='device' id='device'>
+  <div class='header'><div class='h1'>Hey Cutiepie</div><div class='sub'>Can we talk for a moment? There's something important I want to tell you.</div></div>
+
+  <div class='card' id='page1'>
+    <div class='hero' id='hero1'><img id='hero1img' src='assets/cat1.jpg' alt='pink'></div>
+    <div class='cta'><button class='btn' id='continueBtn'>Continue ♥</button></div>
+  </div>
+
+  <div class='card' id='page2' style='display:none'>
+    <div class='hero' id='hero2'><img id='hero2img' src='assets/ww.png' alt='purple'></div>
+    <div style='text-align:center;margin-top:10px;color:var(--muted)'>I know I hurt you... and I've been feeling bad about it.</div>
+    <div class='cta'><button class='btn' id='nextBtn'>Next →</button></div>
+  </div>
+
+  <div class='card' id='page3' style='display:none'>
+    <div style="text-align:center;font-family:'Great Vibes',cursive;font-size:22px;color:#6b2330">Little things I want to tell you...</div>
+    <div class='pills'>
+      <div class='pill pill-1' data-text="I messed up... and I'm really sorry for that." id='pill1'><div class='icon'>❤</div><div>I messed up... and I'm really sorry for that.</div></div>
+      <div class='pill pill-2' data-text="I promise I'll be better for you." id='pill2'><div class='icon'>💞</div><div>I promise I'll be better for you.</div></div>
+      <div class='pill pill-3' data-text="You mean so much to me — your happiness matters." id='pill3'><div class='icon'>💜</div><div>You mean so much to me — your happiness matters.</div></div>
+    </div>
+    <div class='reveal' id='reveal'>Tap a pill to reveal</div>
+    <div class='cta'><button class='btn' id='toHeartBtn'>My message →</button></div>
+  </div>
+
+  <div class='card' id='page4' style='display:none'>
+    <div style="text-align:center;font-family:'Great Vibes',cursive;font-size:22px;color:#6b2330">From my heart...</div>
+    <div class='heart-row'>
+      <div class='heart-tile' id='cat1'><img src='assets/cate1.png' style='width:100%;height:100%;object-fit:cover'></div>
+      <div class='heart-tile' id='cat2'><img src='assets/cate2.png' style='width:100%;height:100%;object-fit:cover'></div>
+    </div>
+    <div class='reveal' id='heartReveal'>↓ Tap to see message ↓</div>
+    <div class='cta'><button class='btn' id='finalBtn'>I'm Sorry →</button></div>
+  </div>
+
+  <div class='card' id='page5' style='display:none'>
+    <div class='final-card'>
+      <h2 style="font-family:'Great Vibes',cursive;color:#6b2330;margin:6px 0">I'm Sorry</h2>
+      <div class='small'>I’m really sorry
+
+for today… I never want to be the reason you feel ignored or unimportant.
+When you called, I should’ve given you my full attention, but I got caught up with my friends and ended up hurting you — and that’s completely my mistake.
+You’re the last person I’d ever want to hurt, even by accident.
+Please forgive me, baby… your feelings matter to me more than anything, and I promise to love you with the attention and care you truly deserve. 🤍
+</div>
+    </div>
+  </div>
+
+  <div class='footer-note'>Tip: double-tap a tile for a confetti surprise</div>
+</div>
+
+<script src='app.js'></script>
+</body></html>
